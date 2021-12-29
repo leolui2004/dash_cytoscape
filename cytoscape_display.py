@@ -1,6 +1,3 @@
-# https://stackoverflow.com/questions/57143087/pygraphviz-oserror-format-dot-not-recognized-use-one-of
-# sudo apt install graphviz-dev
-
 import dash
 import dash_cytoscape as cyto
 import dash_html_components as html
@@ -37,7 +34,6 @@ for screenname in twitter_dict.keys():
 graph = nx.from_dict_of_lists(center_to_followers)
 nx.set_node_attributes(graph, node_attrs)
 
-'''transfer'''
 pos = nx.nx_agraph.graphviz_layout(graph)
 pos_list = []
 for value in pos.values():
@@ -56,7 +52,6 @@ for j in cy['elements']['nodes']:
 for k in cy['elements']['edges']:
     elements_list.append(k)
 
-'''dash'''
 app = dash.Dash(__name__)
 
 app.layout = html.Div([
