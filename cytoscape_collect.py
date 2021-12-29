@@ -1,29 +1,3 @@
-'''
-https://developer.twitter.com/en/docs/twitter-api/v1/accounts-and-users/follow-search-get-users/api-reference/get-followers-ids
-Ai, micaholic1981
-あいみょん, aimyonGtter
-石川さゆり, なし
-Awesome City Club, CcAwesome
-上白石萌音, mone_tohoent
-坂本冬美, Fuyumi_staff
-櫻坂46, sakurazaka46
-天童よしみ, なし
-東京事変, nekoyanagi_line
-NiziU, NiziU__official
-乃木坂46, nogizaka46
-Perfume, Perfume_Staff
-BiSH, BiSHidol
-日向坂46, hinatazaka46
-松田聖子, なし
-MISIA, MISIA
-水森かおり, mizumyoutube
-milet, milet_music
-millennium parade x Belle（中村佳穂）, なし (mllnnmprd, KIKI_526)
-薬師丸ひろ子, なし
-YOASOBI, YOASOBI_staff
-LiSA, LiSA_OLiVE
-'''
-
 from requests_oauthlib import OAuth1Session
 import json
 import csv
